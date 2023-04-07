@@ -19,6 +19,13 @@ java -jar target/dota-challenge-1.0.0-SNAPSHOT.jar
 ```
 This will start the application and you can access it at `http://localhost:8080`.
 
+## API Documentation
+API documentation can be found in the SwaggerUI, using below URL.
+```shell
+http://localhost:8080/swagger-ui/index.html
+```
+A Postman collection for the API can be found in the `postman/` directory. You can import this collection into 
+Postman to explore and test the API.
 
 ## Solution thought process
 * Parsed of events using pattern matcher to reduce the complexity.
